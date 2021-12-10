@@ -21,8 +21,8 @@ void backgrounddisplay()      //void
 {
     int card_ground;
     int card_back;
-    card_back = HgImageLoad("img/tranpuura.jpg");
-    card_ground = HgImageLoad("img/backcard.jpg");
+    card_back = HgImageLoad("tranpuura.jpg");
+    card_ground = HgImageLoad("backcard.jpg");
     HgSetFillColor(HG_DGREEN);
     HgSetColor(HG_BROWN);
     HgSetWidth(50);
@@ -66,19 +66,19 @@ int displaycard(int nowhand, int l /*何枚目のカードなのか*/, int dm /*
     int x, y; //カードの表示位置
     //カード情報と宣言
     int dia_card[15];
-    dia_card[1] = HgImageLoad("img/dia1.png");
-    dia_card[2] = HgImageLoad("img/dia2.png");
-    dia_card[3] = HgImageLoad("img/dia3.png");
-    dia_card[4] = HgImageLoad("img/dia4.png");
-    dia_card[5] = HgImageLoad("img/dia5.png");
-    dia_card[6] = HgImageLoad("img/dia6.png");
-    dia_card[7] = HgImageLoad("img/dia7.png");
-    dia_card[8] = HgImageLoad("img/dia8.png");
-    dia_card[9] = HgImageLoad("img/dia9.png");
-    dia_card[10] = HgImageLoad("img/dia10.png");
-    dia_card[11] = HgImageLoad("img/dia11.png");
-    dia_card[12] = HgImageLoad("img/dia12.png");
-    dia_card[13] = HgImageLoad("img/dia13.png");
+    dia_card[1] = HgImageLoad("dia1.png");
+    dia_card[2] = HgImageLoad("dia2.png");
+    dia_card[3] = HgImageLoad("dia3.png");
+    dia_card[4] = HgImageLoad("dia4.png");
+    dia_card[5] = HgImageLoad("dia5.png");
+    dia_card[6] = HgImageLoad("dia6.png");
+    dia_card[7] = HgImageLoad("dia7.png");
+    dia_card[8] = HgImageLoad("dia8.png");
+    dia_card[9] = HgImageLoad("dia9.png");
+    dia_card[10] = HgImageLoad("dia10.png");
+    dia_card[11] = HgImageLoad("dia11.png");
+    dia_card[12] = HgImageLoad("dia12.png");
+    dia_card[13] = HgImageLoad("dia13.png");
     
     //l枚目のカードの位置についての情報を決定
 
@@ -226,9 +226,9 @@ int main()
     //int dia_card1, dia_card2, dia_card3, dia_card4, dia_card5, dia_card6, dia_card7, dia_card8, dia_card9, dia_card10, dia_card11, dia_card12, dia_card13;
     int lose = 0, win = 0, even = 0,blackjuck = 0;
     int burst = 0;
-    //デバック用（後に消去）
-    /*dia_card1 = HgImageLoad("img/dia1.png");
-    dia_card2 = HgImageLoad("img/dia2.png");
+    /*デバック用（後に消去）
+    dia_card1 = HgImageLoad("dia1.png");
+    dia_card2 = HgImageLoad("dia2.png");
     dia_card3 = HgImageLoad("img/dia3.png");
     dia_card4 = HgImageLoad("img/dia4.png");
     dia_card5 = HgImageLoad("img/dia5.png");
@@ -241,8 +241,8 @@ int main()
     dia_card12 = HgImageLoad("img/dia12.png");
     dia_card13 = HgImageLoad("img/dia13.png");*/
     //カードのイラストを読み込む
-    card_back = HgImageLoad("img/tranpuura.jpg");
-    card_ground = HgImageLoad("img/backcard.jpg");
+    card_back = HgImageLoad("tranpuura.jpg");
+    card_ground = HgImageLoad("backcard.jpg");
 
     /*デバック用
     myhand = handdecide;
